@@ -12,7 +12,7 @@ apt update && apt upgrade -y
 
 # Installation des dépendances et outils de développement
 echo "Installation des outils de développement..."
-apt install -y git make gcc g++ libreadline-dev
+apt install -y git make gcc g++ libreadline-dev clang
 
 # Installation de Visual Studio Code
 echo "Installation de Visual Studio Code..."
