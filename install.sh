@@ -12,7 +12,7 @@ apt update && apt upgrade -y
 
 # Installation des dépendances et outils de développement
 echo "Installation des outils de développement..."
-apt install -y git make gcc g++ libreadline-dev clang valgrind
+apt install -y git make gcc g++ libreadline-dev clang valgrind vscode
 
 # Installation de Fish shell
 echo "Installation de Fish shell..."
