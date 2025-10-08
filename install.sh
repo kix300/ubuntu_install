@@ -12,7 +12,8 @@ apt update && apt upgrade -y
 
 # Installation des dépendances et outils de développement
 echo "Installation des outils de développement..."
-apt install -y git make gcc g++ libreadline-dev clang valgrind vscode
+apt install -y git make gcc g++ libreadline-dev clang valgrind
+snap install code --classic
 
 apt update
 apt install ca-certificates curl
