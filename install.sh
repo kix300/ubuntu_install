@@ -12,7 +12,7 @@ apt update && apt upgrade -y
 
 # Installation des dépendances et outils de développement
 echo "Installation des outils de développement..."
-apt install -y git build-essential gcc g++ libreadline-dev clang valgrind vim
+apt install -y git build-essential gcc g++ libreadline-dev clang valgrind vim nasm
 snap install code --classic
 
 apt update
